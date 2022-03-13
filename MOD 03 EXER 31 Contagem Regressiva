@@ -1,0 +1,28 @@
+//Módulo 03 Exercício 31 Contagem Regressiva
+//O programa solicitará ao usuário onde começará a contagem regressiva e  
+//solicitará qual multipo serão marcados.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	inclua biblioteca Util --> u
+	funcao inicio()
+	{	
+		inteiro regre, cont = 0, mult
+		
+		escreva ("\nSua contagem regressiva vai começar em? ")
+		leia (regre)
+		escreva ("Marcar os múltiplos de? ")
+		leia (mult)
+
+		enquanto (regre >= cont){
+			se (regre % mult != 0){
+				escreva (regre, " - ")
+			}senao escreva ("[", regre, "] - ")
+			u.aguarde(800)
+			regre --
+		}
+		escreva ("Fim!!!\n\n")
+		
+	}
+}
