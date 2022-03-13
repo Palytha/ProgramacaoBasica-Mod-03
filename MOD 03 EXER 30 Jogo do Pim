@@ -1,0 +1,25 @@
+//Módulo 03 Exrtcício 30 Jogo do Pim
+//O jogo perguntará até quanto é para contar, exibirá na tela a contagem  e quando chegar 
+//nos multiplos de quatro ao invés de falar o número o programa colocará a palavra "PIM".
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	 inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro inicont = 1, fimcont
+		
+		escreva ("\nQuer contar até quanto? ")
+		leia (fimcont)
+
+		enquanto (inicont <= fimcont) {
+			se (inicont % 4 != 0 ) {
+				escreva (inicont, " - ")
+			} senao escreva ("Pim!\n")
+			u.aguarde(800)
+			inicont += 1
+		}
+		escreva ("Fim\n")
+	}
+}
