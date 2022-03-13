@@ -1,0 +1,28 @@
+//Módulo 03 Exercício 29 Contagem Personalizada
+//O programa solicitara ao usuário onde começa a contagem onde termina e de quanto é o incremento exibindo na tela a contagem
+//Utilizando a biblioteca Util para que a contagem pausada.
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro inicont, fincont, incre
+	
+		escreva ("\nOnde começa a contagem? ")
+		leia (inicont)
+		escreva ("Onde termina a contagem? ")
+		leia (fincont)
+		escreva ("Qual vai ser o incremento? ")
+		leia (incre)
+		escreva ("\n==========================\n\n")
+
+		enquanto ( inicont <= fincont ){
+			escreva (inicont, " - " )
+			u.aguarde(700)
+			inicont += incre
+		}
+		escreva ("FIM\n\n")
+	}
+}
