@@ -1,0 +1,51 @@
+//Módulo 03 Exercício 35 Pessoas Cadastradas
+//O programa solicitará ao usuáro a quantidade de pessoas a serem cadastradas, o peso de referência,
+//e o sexo, em seguida o programa mostrará quem está dentro do peso de referência e quem está acima 
+//do peso, das pessoas acima do pese mostrará quantas são do sexo feminino e quantas são do sexo
+//masculino e o total.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	inclua biblioteca Texto --> t
+	funcao inicio()
+	{
+		inteiro cont = 1, cadastro = 0, refpeso = 0, totalacima = 0, acima = 0, masc = 0, fem = 0
+		real peso = 0
+		cadeia sex
+
+		escreva ("**************************************\n\n")
+		escreva ("Quantas pessoas vamos cadastrar? ")
+		leia (cadastro)
+		escreva ("Qual é o peso de referência (Kg)? ")
+		leia (refpeso)
+	     escreva ("\n**************************************\n")
+	     
+		enquanto (cont <= cadastro){
+			escreva ("\n")
+			escreva ("\t[ Pessoa ", cont, " de ", cadastro," ]")
+			
+			escreva ("\nPeso [Kg] ")
+			leia (peso)
+			escreva ("Sexo [F/M] ")
+			leia (sex)
+
+			se (peso > refpeso){
+				escreva ("\n======== PESO ACIMA DO LIMITE DE ", refpeso, " ========\n\n" )
+				acima += 1 
+				   se (t.caixa_alta(sex) == "M") 
+					masc += 1
+				     senao se (t.caixa_alta(sex) == "F")
+				     	fem += 1
+				
+			}senao 
+				escreva ("\n======== PESO ESTÁ DENTRO DO LIMITE DE ", refpeso, " ========\n\n")
+				
+			cont += 1
+
+		}
+			escreva ("\nAo todo temos ", acima, " pessoas acima do peso de referência ", refpeso, ".")
+			escreva ("\nE dessas pessoas ", masc, " são homens e ", fem, " mulheres.")
+			escreva ("\n\n")
+	}
+}
