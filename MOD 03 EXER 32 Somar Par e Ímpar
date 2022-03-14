@@ -1,0 +1,31 @@
+//Módulo 03 Exercício 32 Somar Par e Ímpar
+//O programa solicitará que  usuário digite 5 números, somando todos os números pares 
+//e em seguida todos os ímpares digitados e mostrando na tela.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro c = 1, valor = 0, par = 0, impar = 0
+
+		enquanto (c <= 5) {
+			escreva ("\nDigite o ", c,"º valor: ")
+			leia (valor)
+			c += 1 
+
+			se (valor % 2 == 0) {
+				par += valor
+				
+			}senao impar += valor
+			
+			   valor += 1
+			}
+			escreva ("*****************************************\n")
+			escreva ("\nSomando os valores Pares, temos ", par)
+			escreva ("\nSomando os valores Ímpares, temos ",impar)
+			escreva ("\n\n\n*****************************************")
+			escreva ("\n\n")
+		}
+	}
