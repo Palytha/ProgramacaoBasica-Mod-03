@@ -1,0 +1,40 @@
+//Módulo 03 Exercício 34 Pares e Ímpares
+//O programa solicitará ao usuário parar que ele digite cinco números, entre eles o programa somará
+//os valores dos números pares e calculrá a média, e somará os valores dos números ímpares e calculará a média,
+//mostrará na tela quantos números pares e ímpares foram digitados e suas respectivas médias. 
+//Usamos a biblioteca Matemática para arredondar a média e a biblioteca Tipo para alterar o tipo da variável 
+//de inteiro para real.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	inclua biblioteca Tipos --> t
+	inclua biblioteca Matematica --> m
+	funcao inicio()
+	{
+		inteiro n = 1, num = 0 , pares = 0, impares = 0, totpar = 0, totimpar = 0
+
+		enquanto (n <= 5){
+	
+		escreva ("Digite o ", n, "º número. ")
+		leia (num)
+		
+		se (num % 2 == 0){
+			pares += 1 //quantos números pares
+			totpar += num		
+		}
+		senao {
+			impares += 1 //quantos números ímpares
+			totimpar += num
+		}
+		
+		n += 1
+		}
+		
+		real medpar = t.inteiro_para_real (totpar) / pares
+		real medimp = t.inteiro_para_real (totimpar) / impares
+		
+		escreva ("\nVocê digitou, ", pares, " números pares e a média dos valores pares é, ",m.arredondar(medpar, 2))
+		escreva ("\nVocê digitou, ", impares, " números ímpares e a média dos valores ímpares é ", m.arredondar(medimp, 2))
+	}
+}
