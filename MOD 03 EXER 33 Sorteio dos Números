@@ -1,0 +1,27 @@
+//Módulo 03 Exercício 33 Sorteio de Números
+//O programa perguntará quantos números ele quer sortear, e mostrará na tela  
+//o total de números solicitados pelo usuário.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{	
+	inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro cont = 1, num = 0, sort =  0, soma = 0
+	
+		escreva ("\nQuantos números você quer que eu sorteie? ")
+		leia (num)
+		escreva ("Sorteando ", num, " números.\n\n")
+		
+		enquanto (cont <= num){
+			sort = sorteia (0, 100)
+			escreva (sort, " - ")
+			soma += sort
+			u.aguarde(800)
+			cont += 1
+		}
+		escreva ("\nA soma total dos números sorteados é, ", soma)
+		escreva (" Pronto!!\n\n")
+	}
+}
