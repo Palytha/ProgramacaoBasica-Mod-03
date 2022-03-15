@@ -1,0 +1,35 @@
+//Módulo 03 Exercício 36 Analisando os números
+//O programa solicitará quantos números serão sorteados e mostrará na tela aleatoriamente os 
+//números sorteados, os quantos são maires que 5 e quantos são divisíveis por 3.
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro num, cont = 1, maior = 0, multp = 0, sort
+			
+		escreva ("Quantos números você quer sortear? ")
+		leia (num)
+		escreva ("\nSorteando ", num, " números.\n")
+
+		enquanto (cont <= num) {
+		 	sort = sorteia (0, 10)
+		 	escreva (sort, " - ")
+			se (sort > 5) {
+				maior += 1 
+			}
+			se (sort % 3 == 0) {
+					multp += 1
+				}
+			u.aguarde(800)
+			cont += 1
+			
+		}
+		escreva ("Ponto!\n")
+		escreva ("\n\nDos ", num, " números sorteados\n", maior, " são maiores que cinco.\n")
+		escreva (multp, " são divisíveis por 3.")
+		escreva ("\n\n")
+	}
+}
