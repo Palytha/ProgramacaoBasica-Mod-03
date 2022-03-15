@@ -1,0 +1,12 @@
+//Módulo 03 Exercício 38 Analisando a Idade 	REFAZENDO O EXERCÍCIO pois é complexo
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador = 1, idade, totalmulher = 0, totalhomem = 0, contmulher = 0, conthomem = 0
+		inteiro idadejovem = 0, idadevelha = 0, idadjovem = 0, idadvelho = 0
+		cadeia nome = "", mulherjovem = "", mulhervelha = "", homemjovem = "", homemvelho = ""
+		caracter sexo
