@@ -1,0 +1,41 @@
+//Módulo 03 Exercício 37 O mais Velho e o Mais Novo
+//O programa solicitará Nome, idade de cinco pessoas e mostrará ao usuário quem é o mais
+//velho e sua idade e em seguida o meais novo e sua idade. 
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome, novo =  "", velho = ""
+		inteiro idade, cont = 1, maiorid = 0, menorid = 0
+				
+		enquanto (cont <= 5) {
+			escreva ("\n---------------------------")
+			escreva ("\n\t", cont, "ª pessoa")
+			escreva ("\n---------------------------")
+			escreva ("\n\nNome: ")
+			leia (nome)
+			escreva ("Idade: ")
+			leia (idade)
+	
+			se (cont == 1) {//contador é o peimeiro nº a ser digitado
+				maiorid = idade//logo ele é o maior e o menor
+				menorid = idade			
+			}senao {
+				se (idade < menorid) {
+					menorid = idade
+					novo = nome
+								
+				}se (idade > maiorid) {
+					maiorid = idade
+					velho = nome
+				}
+			}
+			cont ++
+		}		
+		escreva ("\nA pessoa mais jovem é ", novo," que tem ", menorid, " anos.")
+		escreva ("\nA pessoa mais velha é ", velho," que tem ", maiorid, " anos.\n\n\n")	
+	}
+}
