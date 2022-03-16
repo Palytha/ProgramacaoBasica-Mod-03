@@ -10,3 +10,14 @@ programa
 		inteiro idadejovem = 0, idadevelha = 0, idadjovem = 0, idadvelho = 0
 		cadeia nome = "", mulherjovem = "", mulhervelha = "", homemjovem = "", homemvelho = ""
 		caracter sexo
+
+        enquanto (contador <= 5){
+			escreva ("\n\n********************************\n")
+			escreva ("Digite o nome da ", contador, "ª pessoa.\n")
+			escreva ("********************************\n\n")
+			escreva ("Nome: ")
+			leia (nome)
+			escreva ("Idade: ")
+			leia (idade)
+			escreva ("Sexo [H / M]: ")
+			leia (sexo)
