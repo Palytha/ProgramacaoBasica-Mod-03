@@ -34,3 +34,19 @@ programa
 				} se (idade <= idadejovem) {
 					
 					idadejovem = idade
+                    mulherjovem = nome
+					
+				} se (idade > idadevelha) {
+					
+					idadevelha = idade
+					mulhervelha = nome
+				}
+				
+			}senao se (sexo =='H' ou sexo == 'h') {
+				totalhomem += 1
+				 se (totalhomem == 1){
+					
+					idadjovem = idade
+					homemjovem = nome
+					idadvelho = idade
+					homemvelho = nome
