@@ -50,3 +50,16 @@ programa
 					homemjovem = nome
 					idadvelho = idade
 					homemvelho = nome
+					
+				} se (idade <= idadjovem) {
+
+					idadjovem = idade
+					homemjovem = nome
+					
+				} se (idade > idadvelho) {
+
+					idadvelho = idade
+					homemvelho = nome
+				}
+			}
+			contador += 1
