@@ -21,3 +21,16 @@ programa
 			leia (idade)
 			escreva ("Sexo [H / M]: ")
 			leia (sexo)
+
+			se (sexo == 'M' ou sexo == 'm') {
+				totalmulher += 1
+				se (totalmulher == 1) {
+					
+					idadejovem = idade
+					mulherjovem = nome
+					idadevelha = idade
+					mulhervelha = nome
+					
+				} se (idade <= idadejovem) {
+					
+					idadejovem = idade
