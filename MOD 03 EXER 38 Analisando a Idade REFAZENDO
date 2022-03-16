@@ -63,3 +63,9 @@ programa
 				}
 			}
 			contador += 1
+         } escreva ("\nA mulher mais jovem é a ", mulherjovem, " com ", idadejovem, " anos.")
+		  escreva ("\nA mulher mais velha é a ", mulhervelha, " com ", idadevelha, " anos.")
+		  escreva ("\nO homem mais jovem é o ", homemjovem, " com ", idadjovem, " anos.")
+		  escreva ("\nO homem mais velho é o ", homemvelho, " com ", idadvelho, " anos.\n\n")
+	}
+}
