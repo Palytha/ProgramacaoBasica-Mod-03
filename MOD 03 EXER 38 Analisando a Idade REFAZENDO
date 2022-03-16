@@ -1,4 +1,10 @@
 //Módulo 03 Exercício 38 Analisando a Idade 	REFAZENDO O EXERCÍCIO pois é complexo
+//O usuário irá cadastrar pessoas com Nome, Idade e Sexo com esses dados o programa irá mostras as seguintes 
+//informações.
+//-homem mais jovem e sua idade
+//-homem mais velho e sua idade
+//-mulher mais jovem e sua idade
+//-mulher mais velha e sua idade
 //Autora Fernanda de Almeida Guerra
 
 programa
