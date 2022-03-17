@@ -27,3 +27,20 @@ programa
 			leia (idade)
 			escreva ("Sexo [H/M]: ")
 			leia (sexo)
+
+			se (sexo == 'h' ou sexo == 'H') {
+				tothom ++
+				se (cont == 1) {
+					hmaior = idade
+					hvelho = nome
+					hmenor = idade
+					hjovem = nome
+				}
+					se (idade >= hmaior) {
+						hmaior = idade
+						hvelho = nome
+						}
+					se (idade < hmenor) {
+						hmenor = idade
+						hjovem = nome	
+					}
