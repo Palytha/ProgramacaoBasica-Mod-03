@@ -44,3 +44,29 @@ programa
 						hmenor = idade
 						hjovem = nome	
 					}
+			}senao se (sexo == 'm' ou sexo == 'M') {
+				totmul ++
+				se (totmul == 1) {
+					mmaior = idade
+					mvelha = nome
+					mmenor = idade
+					mjovem = nome
+				}
+					se (idade >= mmaior) {
+						mmaior = idade
+						mvelha = nome 
+				    }
+					se (idade < mmenor) {
+						mmenor = idade
+						mjovem = nome
+				   }
+			}
+			cont ++
+		}
+		escreva ("\nO homem mais jovem é ", hjovem, " ele tem ", hmenor, " anos.")
+		escreva ("\nO homem mais velho é ", hvelho, " ele tem ", hmaior, " anos.")
+		escreva ("\nA mulher mais jovem é ", mjovem, " ela tem ", mmenor, " anos.")
+		escreva ("\nA mulher mais velha é ", mvelha, " ela tem ", mmaior, " anos.\n\n")
+		
+	}
+}
