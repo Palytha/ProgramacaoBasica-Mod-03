@@ -9,3 +9,21 @@
 
 programa
 {
+	
+	funcao inicio()
+	{
+		cadeia nome = "", hjovem = "", hvelho = "", mvelha = "", mjovem = ""
+		caracter sexo 
+		inteiro cont = 1, idade = 0, tothom = 0, totmul = 0
+		inteiro hmaior = 0, hmenor =0, mmaior = 0, mmenor = 0
+		
+		enquanto (cont <= 5) {
+			escreva ("===========================")
+			escreva ("\n\t", cont, "ª pessoa")
+			escreva ("\n===========================")
+			escreva ("\nNome: ")
+			leia (nome)
+			escreva ("Idade: ")
+			leia (idade)
+			escreva ("Sexo [H/M]: ")
+			leia (sexo)
