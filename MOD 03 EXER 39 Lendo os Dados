@@ -32,4 +32,17 @@ enquanto (valor != 9999) {
 				senao se (valor >= maior) {
 
 					maior = valor
-				}
+				} 
+            }
+			cont += 1	
+		}
+		media = t.inteiro_para_real(soma) / t.inteiro_para_real(total)
+		media = m.arredondar(media, 3)
+	
+		escreva ("\nAo todo você digitou ", total, " valores.")
+		escreva ("\nA soma é ", soma, ".")
+		escreva ("\nA média foi ", media , ".")
+		escreva ("\nO valor maior digitado é ", maior, ".\n\n\n")
+	}  
+	
+}
