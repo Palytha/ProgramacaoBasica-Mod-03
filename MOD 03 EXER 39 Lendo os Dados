@@ -12,3 +12,12 @@ programa
 	{
 		inteiro valor = 0, cont = 1, soma = 0, maior = 0, total = 0
 		real  media = 0.0
+
+enquanto (valor != 9999) {
+
+			escreva ("\n\n¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨\n")
+			escreva (cont, "º Valor [Digitando 9999, faz o programa parar!]\n\n")
+			escreva ("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨\n")
+			escreva ("VALOR: ")
+			leia (valor)
+	
