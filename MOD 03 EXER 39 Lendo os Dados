@@ -1,4 +1,14 @@
 //Módulo 03 Exercício 39 Lendo Dados
 //O programa solicita alguns valores para o usuário e ao finam o usuário digita a flag 9999 para interromper
 //o programa e ao final o programa mostrará a soma dos valores digitados.
-//Autora Fernanda de Almeida Guerra
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	inclua biblioteca Tipos --> t
+	inclua biblioteca Matematica --> m
+	
+	funcao inicio()
+	{
+		inteiro valor = 0, cont = 1, soma = 0, maior = 0, total = 0
+		real  media = 0.0
