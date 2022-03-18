@@ -20,4 +20,16 @@ enquanto (valor != 9999) {
 			escreva ("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨\n")
 			escreva ("VALOR: ")
 			leia (valor)
-	
+	se (valor != 9999) {
+
+				soma += valor
+				total += 1
+
+				se (cont == 1) {
+
+					maior = valor
+				}
+				senao se (valor >= maior) {
+
+					maior = valor
+				}
