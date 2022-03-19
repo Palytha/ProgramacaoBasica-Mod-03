@@ -1,10 +1,9 @@
-//Módulo 03 Exercício 34 Pares e Ímpares
-//O programa solicitará ao usuário parar que ele digite cinco números, entre eles o programa somará
-//os valores dos números pares e calculrá a média, e somará os valores dos números ímpares e calculará a média,
-//mostrará na tela quantos números pares e ímpares foram digitados e suas respectivas médias. 
-//Usamos a biblioteca Matemática para arredondar a média e a biblioteca Tipo para alterar o tipo da variável 
-//de inteiro para real.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 03 Exercício 34 Pares e Ímpares
+  O programa solicitará ao usuário parar que ele digite cinco números, entre eles o programa somará
+  os valores dos números pares e calculrá a média, e somará os valores dos números ímpares e calculará a média, mostrará na tela quantos números pares e ímpares foram digitados e suas respectivas médias. 
+  Usamos a biblioteca Matemática para arredondar a média e a biblioteca Tipo para alterar o tipo da variável 
+  de inteiro para real.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
