@@ -1,7 +1,7 @@
-//Módulo 03 Exrtcício 30 Jogo do Pim
-//O jogo perguntará até quanto é para contar, exibirá na tela a contagem  e quando chegar 
-//nos multiplos de quatro ao invés de falar o número o programa colocará a palavra "PIM".
-//Autora Fernanda de Almeida Guerra.
+/*Módulo 03 Exrtcício 30 Jogo do Pim
+  O jogo perguntará até quanto é para contar, exibirá na tela a contagem  e quando chegar 
+  nos multiplos de quatro ao invés de falar o número o programa colocará a palavra "PIM".
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
