@@ -1,7 +1,7 @@
-//Módulo 03 Exercício 36 Analisando os números
-//O programa solicitará quantos números serão sorteados e mostrará na tela aleatoriamente os 
-//números sorteados, quantos são maiores que 5 e quantos são divisíveis por 3.
-//Autora Fernanda de Almeida Guerra.
+/*Módulo 03 Exercício 36 Analisando os números
+  O programa solicitará quantos números serão sorteados e mostrará na tela aleatoriamente os 
+  números sorteados, quantos são maiores que 5 e quantos são divisíveis por 3.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
