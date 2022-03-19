@@ -1,9 +1,9 @@
-//Módulo 03 Exercício 35 Pessoas Cadastradas
-//O programa solicitará ao usuáro a quantidade de pessoas a serem cadastradas, o peso de referência,
-//e o sexo, em seguida o programa mostrará quem está dentro do peso de referência e quem está acima 
-//do peso, das pessoas acima do pese mostrará quantas são do sexo feminino e quantas são do sexo
-//masculino e o total.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 03 Exercício 35 Pessoas Cadastradas
+  O programa solicitará ao usuáro a quantidade de pessoas a serem cadastradas, o peso de referência,
+  e o sexo, em seguida o programa mostrará quem está dentro do peso de referência e quem está acima 
+  do peso, das pessoas acima do pese mostrará quantas são do sexo feminino e quantas são do sexo
+  masculino e o total.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
