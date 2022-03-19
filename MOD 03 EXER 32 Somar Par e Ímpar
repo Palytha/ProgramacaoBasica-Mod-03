@@ -1,7 +1,7 @@
-//Módulo 03 Exercício 32 Somar Par e Ímpar
-//O programa solicitará que  usuário digite 5 números, somando todos os números pares 
-//e em seguida todos os ímpares digitados e mostrando na tela.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 03 Exercício 32 Somar Par e Ímpar
+  O programa solicitará que  usuário digite 5 números, somando todos os números pares 
+  e em seguida todos os ímpares digitados e mostrando na tela.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
