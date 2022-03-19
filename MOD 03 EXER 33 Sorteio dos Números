@@ -1,7 +1,7 @@
-//Módulo 03 Exercício 33 Sorteio de Números
-//O programa perguntará quantos números ele quer sortear, e mostrará na tela  
-//o total de números solicitados pelo usuário.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 03 Exercício 33 Sorteio de Números
+  O programa perguntará quantos números ele quer sortear, e mostrará na tela  
+  o total de números solicitados pelo usuário.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {	
