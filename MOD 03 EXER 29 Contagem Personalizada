@@ -1,7 +1,10 @@
 /*Módulo 03 Exercício 29 Contagem Personalizada
   O programa solicitará ao usuário as seguintes informações:
-  onde começará a contagem onde termina e de quanto é o incremento exibindo na tela a contagem
-  Utilizando a biblioteca Util para que a contagem pausada.
+  - Onde começará a contagem 
+  - Onde termina a contagem 
+  - Quanto é o incremento 
+  Exibirá na tela a contagem
+  Utilizando a biblioteca Util para que a contagem seja lenta.
   Autora Fernanda de Almeida Guerra.*/
 
 programa
