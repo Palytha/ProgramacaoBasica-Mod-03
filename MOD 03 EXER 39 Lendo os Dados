@@ -2,6 +2,9 @@
   O programa solicitará alguns valores para o usuário
   - Para finalizar o programa o usuário deverá digitar a flag 9999 para interromper
   - O programa mostrará a soma dos valores digitados.
+  -Utilizei duas bibliotecas
+    -Tipo -> para converter de inteiro para real
+    -Matemática --> para arredondar em 3 casas decimais
   Autora Fernanda de Almeida Guerra.*/
 
 programa
