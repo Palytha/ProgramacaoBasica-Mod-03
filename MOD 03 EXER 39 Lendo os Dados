@@ -1,6 +1,7 @@
 /*Módulo 03 Exercício 39 Lendo Dados
-  O programa solicita alguns valores para o usuário e ao finam o usuário digita a flag 9999 para interromper
-  o programa e ao final o programa mostrará a soma dos valores digitados.
+  O programa solicitará alguns valores para o usuário
+  - Para finalizar o programa o usuário deverá digitar a flag 9999 para interromper
+  - O programa mostrará a soma dos valores digitados.
   Autora Fernanda de Almeida Guerra.*/
 
 programa
