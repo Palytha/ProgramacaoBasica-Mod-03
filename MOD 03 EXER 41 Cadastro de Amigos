@@ -1,8 +1,9 @@
-//Módulo 03 Exercício 41 Cadastro de Amigos 
-//O programa fará o cadastro de quantos amigos o usuário desejar e ao digitar "ACABOU" ou "acabou" encerrará o programa.
-//O programa mostrará na tela: 
-//-Total de amigos cadastrados.
-//-O amigo mais velho.
-//-O amigo maios novo.
-//-E a média de idade do grupo.
-//Autora Fernanda de Almeida Guerra.
+/*Módulo 03 Exercício 41 Cadastro de Amigos 
+  O programa solicitará aou usuário o nome e a idade para cadastro, e para finalizar o cadastro o usuário deverá
+  digitar "ACABOU" ou "acabou".
+  O programa mostrará na tela: 
+  -Total de amigos cadastrados.
+  -O amigo mais velho.
+  -O amigo maios novo.
+  -E a média de idade do grupo.
+  Autora Fernanda de Almeida Guerra.*/
