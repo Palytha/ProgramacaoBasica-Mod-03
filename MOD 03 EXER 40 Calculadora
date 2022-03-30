@@ -26,4 +26,44 @@ programa
 			escreva ("\n[ 5 ] Sair\n")
 			escreva ("\n>>>>>>>> SUA OPÇÃO: ")
 			leia (opcao)
+			
+			escolha (opcao) {
+
+				caso 1:
+					resul = (numa + numb)
+					escreva ("\n*********************\n")
+					escreva ("\nCalculando ", numa, " + ", numb, " = ", resul, "\n")
+					escreva ("\n*********************\n")				
+						pare 
+				caso 2:
+					resul = (numa - numb)
+					escreva ("\n*********************\n")
+					escreva ("\nCalculando ", numa, " - ", numb, " = ", resul, "\n")
+					escreva ("\n*********************\n")
+						pare
+				caso 3:
+					resul = (numa * numb)
+					escreva ("\n*********************\n")
+					escreva ("\nCalculando ", numa, " X ", numb, " = ", resul, "\n")
+					escreva ("\n*********************\n")
+						pare
+				caso 4:
+					escreva ("Digite o 1º Operando ")
+					leia (numa)
+					escreva ("Digite o 2º Operando ")
+					leia (numb)
+						pare
+				caso 5:
+					escreva ("\n\tSAINDO")
+					escreva ("\n\tVOLTE SEMPRE\n\n")
+						pare
+				caso contrario:
+					escreva ("\n\n\tOPÇÃO INVÁLIDA TENTE NOVAMENTE")
+				
+			cont +=1
+			}
+			u.aguarde(2000)
+		}
+	}
+}
 
