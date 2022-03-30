@@ -1,0 +1,7 @@
+/*Módulo 03 Exercício 40 Calculadora utilizando FLAGS
+  O programa mostrará um menu ao usuário e solicitará dois números e a operação que deseja efetuar
+  A calculadora foi feita com flags. 
+  Autora Fernanda de Almeida Guerra.*/
+
+programa
+{
