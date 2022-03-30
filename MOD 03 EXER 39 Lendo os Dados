@@ -1,6 +1,6 @@
 /*Módulo 03 Exercício 39 Lendo Dados
   O programa solicitará alguns valores para o usuário
-  - Para finalizar o programa o usuário deverá digitar a flag 9999 para interromper
+  - Para finalizar o programa o usuário deverá digitar a flag 9999
   - O programa mostrará a soma dos valores digitados.
   -Utilizei duas bibliotecas
     -Tipo -> para converter de inteiro para real
