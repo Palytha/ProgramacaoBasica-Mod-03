@@ -1,6 +1,7 @@
 /*Módulo 03 Exercício 37 O mais Velho e o Mais Novo
-  O programa solicitará Nome, idade de cinco pessoas e mostrará ao usuário quem é o mais
-  velho e sua idade e em seguida o meais novo e sua idade. 
+  O programa solicitará o nome e a idade de cinco pessoas e mostrará na tela  
+  - Quem é o mais velho e sua idade 
+  - Que é o meais novo e sua idade. 
   Autora Fernanda de Almeida Guerra.*/
 
 programa
