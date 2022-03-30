@@ -7,3 +7,60 @@
   -O amigo maios novo.
   -E a média de idade do grupo.
   Autora Fernanda de Almeida Guerra.*/
+
+  programa
+{
+	inclua biblioteca Matematica --> m
+	inclua biblioteca Tipos --> t
+	inclua biblioteca Texto --> tx
+	funcao inicio()
+	{
+		inteiro idade,  totamig = 0, cont = 0, idvelho = 0, idnovo = 0, totidade = 0
+		cadeia nome, velho = "",  novo = ""
+		real mediaid = 0.0
+
+		enquanto (verdadeiro) {
+			escreva ("\n*************** NOVO AMIGO ***************\n")
+			escreva ("\nOBS: Digite ACABOU no nome para encerrar o programa.\n")
+			escreva ("\nNome: ")
+			leia (nome)
+
+			se (tx.caixa_alta(nome) == "ACABOU") {
+				escreva ("\nPrograma interrompido\n")
+				escreva ("\n******************************************\n\n")
+				pare
+			}
+			escreva ("Idade: ")
+			leia (idade)
+
+			se (nome != "acabou" ou nome != "ACABOU") {
+				cont += 1
+				totamig = cont
+				totidade += idade
+			}
+
+			se (cont == 1) {
+				velho = nome
+				idvelho = idade
+				novo = nome
+				idnovo = idade
+			} senao {
+				se (idade >= idvelho) { 
+				velho = nome 
+				idvelho = idade				
+			 } 
+				se (idade < idnovo) {
+			 	novo = nome
+			 	idnovo = idade
+			 }
+		   }
+		}
+
+		mediaid = t.inteiro_para_real(totidade) / t.inteiro_para_real(totamig)
+		
+		escreva ("\nTotal de amigos cadastrados : ", totamig)
+		escreva ("\nSeu amigo mais velho é ", velho, " que tem ", idvelho, " anos.")
+		escreva ("\nSeu amigo maios novo é ", novo, " que tem ", idnovo, " anos.")
+		escreva ("\nA média de idade do grupo é ", m.arredondar(mediaid, 2), "\n\n")
+	}	
+}
